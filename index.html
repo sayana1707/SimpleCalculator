@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Калькулятор</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Калькулятор</h1>
+
+    <!-- поле ввода первого числа -->
+    <input id="num1">
+    
+    <!-- блок с кнопками -->
+    <div id="operator_btns">
+      <button id="plus" onclick="sel_light('plus')">+</button>
+      <button id="minus" onclick="sel_light('minus')">-</button>
+      <button id="times" onclick="sel_light('times')">x</button>
+      <button id="divide" onclick="sel_light('divide')">:</button>
+    </div>
+
+    <!-- поле ввода второго числа -->
+    <input id="num2">
+    <br>
+
+    <!-- кнопка для расчётов -->
+    <button onclick="func()">Посчитать</button>
+
+    <!-- результат -->
+    <p id="result"></p>
+
+  </body>
+</html>

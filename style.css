@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  margin: 10;
+}
+input { 
+  display: inline-block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  margin:  20px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+}
+button {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+/*стиль подсветки выбранной операции*/
+.light {
+  background-color: black;
+  color: white;
+}
